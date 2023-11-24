@@ -161,6 +161,7 @@ li a:hover{
     transition: border 1s ease, transform 1s ease;
     animation: showUp 2s ease;
     min-width: fit-content;
+    max-width: fit-content;
 }
 
 @keyframes showUp{

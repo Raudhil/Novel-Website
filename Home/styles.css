@@ -281,12 +281,6 @@ html{
     padding: 1px;
 }
 
-
-.link{
-    margin-left: 25px;
-    
-}
-
 .chaptertext {
     color: white;
     padding: 25px;
@@ -339,5 +333,48 @@ a:hover {
 }
 
 .bottomlink{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-bottom: 20px;
     
+}
+
+
+.bottomlink a{
+    text-decoration: none;
+    background-color: rgb(28, 115, 177);
+    color: white;
+    padding: 5px 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 15px;
+    transition: background-color 0.5s ease,color 0.5s ease;
+}
+
+.bottomlink a:hover{
+    background-color:rgb(20, 80, 122) ;
+}
+
+.bottomlinklight{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.bottomlinklight a{
+    text-decoration: none;
+    background-color: rgb(28, 115, 177);
+    color: white;
+    padding: 5px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    transition: background-color 0.5s ease,color 0.5s ease;
+}
+
+.bottomlinklight a:hover{
+    background-color:rgb(20, 80, 122) ;
 }

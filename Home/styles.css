@@ -9,7 +9,6 @@ h4 {
 
 h1.title {
     color: red;
-    text-decoration: underline black;
     word-spacing: 3px;
 
 }
@@ -18,7 +17,7 @@ h1.title {
     font-size: 15px;
     color: black;
     text-decoration: none;
-    margin-left: 15px;
+    
 }
 
 .genre {
@@ -162,6 +161,7 @@ b.demon {
     margin-right: 15px;
     background-color: grey;
     border-radius: 20px;
+    transition: background-color 0.5s ease;
 }
 
 .moon:hover{
@@ -177,6 +177,7 @@ b.demon {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 0.5s ease;
 }
 
 .sun:hover{
@@ -216,6 +217,7 @@ b.demon {
     padding: 5px;
     border-radius: 100px;
     margin-left: 10px;
+    transition: background-color 0.5s ease;
 }
 
 .previous:hover{
@@ -239,6 +241,7 @@ b.demon {
     padding: 5px;
     border-radius: 100px;
     margin-left: 5px;
+    transition: background-color 0.5s ease;
 }
 
 .next:hover{
@@ -333,4 +336,8 @@ html{
 
 a:hover {
     color: red;
+}
+
+.bottomlink{
+    
 }

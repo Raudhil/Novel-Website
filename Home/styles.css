@@ -58,6 +58,44 @@ h1.title {
     background-color:white;
 }
 
+.backoption{
+    position: fixed; 
+    display: flex;
+    background-color:rgb(20, 80, 122) ;
+    left: 20px;
+    top: 20px;  
+    justify-content: space-around;
+    padding: 9px 20px;
+    gap: 20px;
+    border: 2px solid white;
+    border-radius: 100px;
+
+    
+}
+
+.homeimg{
+    width: 50px;
+    background-color: white;
+    border-radius: 50px;
+    transition: transform 0.5s ease;
+}
+
+.homeimg:hover{
+    transform: scale(1.09);
+}
+
+.novelimg{
+    width: 50px;
+    background-color: white;
+    border-radius: 50px;
+    transition: transform 0.5s ease;
+}
+
+.novelimg:hover{
+    transform: scale(1.09);
+}
+
+
 /* Chapter 1 */
 
 
@@ -320,6 +358,17 @@ html{
     justify-content: center;
     align-items: center;
     height: 80%;
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
 }
 
 .chaptertittle {
@@ -378,3 +427,4 @@ a:hover {
 .bottomlinklight a:hover{
     background-color:rgb(20, 80, 122) ;
 }
+

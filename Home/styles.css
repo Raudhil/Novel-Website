@@ -16,13 +16,10 @@ h1.title {
 .home {
     font-size: 15px;
     color: black;
-    text-decoration: none;
-    
 }
 
 .genre {
     text-decoration: underline;
-
 }
 
 
@@ -56,6 +53,7 @@ h1.title {
     margin-right: 30px;
     width: fit-content;
     background-color:white;
+    
 }
 
 .backoption{
@@ -95,6 +93,61 @@ h1.title {
     transform: scale(1.09);
 }
 
+
+.chapterlink{
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: color 0.2s ease;
+}
+
+.chapterlink:hover{
+    color: white;
+}
+
+.chapterlink a{
+    color: white;
+}
+
+.chapterlist{
+    display: flex;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+
+.chapterfillhead{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 700px;
+    background-color: #212c58;
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.chapterfillgenap{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 700px;
+    background-color: #9daddf;
+    color: black;
+    padding: 5px;
+}
+
+.chapterfillganjil{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #c0ccfa;
+    width: 700px;
+    color: black;
+    padding: 5px;
+}
+
+.bottom{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
 
 /* Chapter 1 */
 

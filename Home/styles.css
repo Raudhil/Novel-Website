@@ -208,8 +208,23 @@ b.demon {
 }
 
 .illustrationlink{
+    text-decoration: none;
+    background-color: rgb(28, 115, 177);
+    color: white;
+    padding: 5px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;    
+    margin-bottom: 50px;
     display: flex;
+    width:fit-content;
     justify-content: center;
+    margin: auto;
+    transition: background-color 0.5s ease,color 0.5s ease;
+}
+.illustrationlink:hover{
+    background-color:rgb(20, 80, 122) ;
+    color: white;
 }
 
 

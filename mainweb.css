@@ -6,23 +6,15 @@
 body{
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 0;
-    width: 100vw;
+    background-image:url(Home/img/backgroundmain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 
 /* Main */
-
-.backgroundmain{
-    position: absolute;
-    z-index: -1;
-    width: 100vw;
-    height: 100vh;
-    opacity: 0.5;
-    min-width: 100vw;
-    min-height: 100vh;
-    position: fixed;
-    top: 0px;
-}
 
 header{
     background-color: #3e424b;
@@ -40,6 +32,7 @@ header{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     cursor: pointer;
     margin: 10px 30px;
+    font-size: 2.5vw;
 }
 
 h1,a{
@@ -58,7 +51,7 @@ ul li{
     display: inline-block;
     padding: 0px 20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 15px;
+    font-size: 1.2vw;
     transition: transform 0.3s ease;
 }
 
@@ -100,6 +93,7 @@ li a:hover{
     transition: left 1s ease;
     left: 0px;
     width: fit-content;
+    
 }
 
 .isi1:hover{
@@ -121,25 +115,26 @@ li a:hover{
 
 .maindeskripsi{
     color:antiquewhite;
-    width: 335px;    
+    width: 26vw;    
     text-align: justify;
     background-color: rgba(0, 0, 0, 0.3);
     padding: 10px;
 }
 
 .hometext{
-    font-size: 50px;
+    font-size: 4.5vw;
     color: white;
 
 }
 
 .hometexthr{
-    width: 350px;
+    width: 27.5vw;
     border: 1px solid white;
 }
 
 .luffy{
-    width: 100px;
+    width: 8vw;
+    min-width: 120px;
     position: fixed;
     top: 75vh;
     left: 90vw;
@@ -198,6 +193,7 @@ li a:hover{
     margin: auto;
     margin-top: 100px;
     display: flex;
+    align-items: center;
     width: 80vw;
     height: fit-content;
     padding: 35px;
@@ -222,12 +218,12 @@ li a:hover{
 }
 
 .novel1poster{
-    width: 180px;
+    width: 14vw;
+    min-width: 180px;
     border: 2px solid wheat;
     border-radius: 10px;
     transition: transform 1s ease, border 0.5s ease;
-    float: left;
-}  
+} 
 
 .novel1poster:hover{
     transform: scale(1.05) ;
@@ -238,19 +234,20 @@ li a:hover{
 .novel1description{
     margin-left: 30px;
     font-family: 'Poppins';
-    display: block;
+    overflow: hidden;
 }
 
 .novel1sin{
     color: white;
     margin-top: 10px;
-    width: 750px;
+    width: fit-content;
     font-family: 'Poppins';
 }
 
 .novel1title{
     color: white;
-    font-size: 40px;
+    font-size: 3vw;
+    
     transition: transform 1s ease;
 }
 
@@ -261,6 +258,7 @@ li a:hover{
 .novel1link{
     text-decoration: none;
     transition: color 0.1s ease;
+
 }
 
 .novel1link:hover{
@@ -279,6 +277,7 @@ li a:hover{
     background-color: rgb(28, 115, 177);
     padding: 5px;
     border-radius: 10px;
+    font-size: 1.5vw;
     cursor: pointer;
     transition: transform 0.1s ease,backround-color 0.1s ease;
 }

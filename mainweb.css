@@ -140,7 +140,7 @@ li a:hover{
 .hometext{
     font-size: 4.5vw;
     color: white;
-
+    cursor:default;
 }
 
 .hometexthr{
@@ -361,3 +361,86 @@ li a:hover{
 .ulasanbutton:hover{
     background-color:rgb(20, 80, 122) ;
 }
+
+/* Contact */
+
+.contact{
+    animation: showUp 2s ease;
+}
+
+
+.contactme{
+    margin: 15vh 7vh 3vh;
+    width: fit-content;
+    transition: margin 1s ease;
+}
+
+.contactme:hover{
+    margin: 15vh 10vh 3vh;
+}
+
+.media{
+    list-style-type: none;
+    margin-left: 5vh;
+    box-sizing: border-box;
+    animation: moveRight2 2s ease;
+    width: fit-content;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.media li{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 20vw;
+    height: 12vh;
+    font-size: 175%;
+    line-height: 80px;
+    padding-left: 90px;
+    padding-top: 5px;
+    margin: 0;
+    position: relative;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 200px;
+    transition:color 1s ease,transform 2s ease;
+    display: flex;
+    align-items: center;
+}
+
+.media li:hover{
+    color: aqua;
+    transform: translateX(20px);
+}
+
+.media li::before{
+    box-sizing: border-box;
+    content: " ";
+    position: absolute;
+    left: 15px;
+    width: 64px;
+    height: 56px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sosmed1::before{
+    
+    background-image: url(Home/img/instagram.png);
+}
+
+.sosmed2::before{
+    background-image: url(Home/img/facebook.png);
+}
+
+.sosmed3::before{
+    background-image: url(Home/img/twitter.png);
+}
+
+.sosmed4::before{
+    background-image: url(Home/img/email.png);
+}
+

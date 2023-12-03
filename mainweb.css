@@ -47,6 +47,21 @@ h1 a{
     margin: 0px 30px;
 }
 
+
+.listabout{
+    width: 100vh;
+    height: 100vh;
+    position: absolute;
+    background-color: red;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}   
+
+.about:hover  .listabout{
+    opacity: 1;
+}
+
+
 ul li{
     display: inline-block;
     padding: 0px 20px;
@@ -136,10 +151,10 @@ li a:hover{
     width: 8vw;
     min-width: 120px;
     position: fixed;
-    top: 75vh;
-    left: 90vw;
-    margin-left: 0px;
     transition: transform 0.2s ease;
+    bottom: 0px;
+    right: 0px;
+    margin: 2vw;
 }
 
 .luffy:hover{
@@ -164,7 +179,6 @@ li a:hover{
 .boxchat p{
     color: black;
     padding: 10px;
-    
 }
 
 .triangle {
@@ -247,17 +261,17 @@ li a:hover{
 .novel1title{
     color: white;
     font-size: 3vw;
-    
     transition: transform 1s ease;
 }
 
 .novel1title:hover{
-    transform: scale(1.02);
+    transform: scale(1.01);
 }
 
 .novel1link{
     text-decoration: none;
     transition: color 0.1s ease;
+
 
 }
 

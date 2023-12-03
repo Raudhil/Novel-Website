@@ -10,16 +10,19 @@ h4 {
 h1.title {
     color: red;
     word-spacing: 3px;
-
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
 }
 
 .home {
-    font-size: 15px;
+    font-size: 1.2rem;
     color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .genre {
     text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
@@ -41,7 +44,7 @@ h1.title {
 .arrange {
     background-color: white;
     width: 90%;
-    height: 80%;
+    height: fi%;
     display: flex;
     align-items: center;
     margin: 30px auto;
@@ -53,7 +56,8 @@ h1.title {
     margin-right: 30px;
     width: fit-content;
     background-color:white;
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20vh;
 }
 
 .backoption{
@@ -115,6 +119,7 @@ h1.title {
     border-collapse: collapse;
     border: 1px solid;
     border-radius: 10px;
+    width: fit-content;
 }
 
 

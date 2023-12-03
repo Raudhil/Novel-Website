@@ -120,6 +120,7 @@ li a:hover{
     transition: left 1s ease;
     position: relative;
     left: 0px;
+    box-shadow: 0px 3px 100px rgba(249,215,126, 0.3);
 }
 
 .isi2:hover{
@@ -300,4 +301,21 @@ li a:hover{
 .novel1tags p:hover{
     transform: scale(1.05);
     background-color:rgb(20, 80, 122) ;
+}
+
+/* About */
+
+.penjelasan{
+    margin-top: 15vh;
+    width: 50vw;
+    margin-left: 3.5vw;
+    box-shadow: 0px 3px 100px rgba(249,215,126, 0.3);
+}
+
+.penjelasan p{
+    font-size: 115%;
+    color:antiquewhite;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
 }

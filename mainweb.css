@@ -444,3 +444,53 @@ li a:hover{
     background-image: url(Home/img/email.png);
 }
 
+/* Ulasan */
+
+.ulasan1{
+    width: fit-content;
+    margin: 3vw;
+}
+
+
+.textareaulasan{
+    color: white;
+    width: 80vw;
+    height: 50vh;
+    padding: 7px;
+    background-color: black;
+    position: relative;
+    margin-left: 3vw;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: border-color 0.3s ease;
+}
+
+.textareaulasan:focus{
+    border-color: white;
+    outline: none;
+}
+
+.ulasanform{
+    margin-bottom: 20px;
+}
+
+.submit{
+    box-sizing: border-box;
+    background-color: rgb(28, 115, 177);
+    border: 2px solid white;
+    margin-left: 3vw;
+    padding: 10px 50px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.1s ease;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.submit:hover{
+    background-color:rgb(20, 80, 122) ;
+}
+
+.isiulasan{
+    animation: showUp 1s ease;
+}
+

@@ -427,6 +427,24 @@ li a:hover{
     background-position: center;
 }
 
+.sosmed{
+    
+}
+
+@media screen and (max-width: 600px) {
+    .sosmed {
+        font-size: 20px;
+      /* Ukuran font lebih kecil untuk layar yang lebih kecil */
+    }
+    }
+
+@media screen and (max-width: 300px) {
+        .sosmed {
+            font-size: 10px;
+          /* Ukuran font lebih kecil untuk layar yang lebih kecil */
+    }
+    }    
+
 .sosmed1::before{
     
     background-image: url(Home/img/instagram.png);

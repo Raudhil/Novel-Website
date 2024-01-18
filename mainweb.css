@@ -385,7 +385,6 @@ li a:hover{
     box-sizing: border-box;
     animation: moveRight2 2s ease;
     width: fit-content;
-    display: inline-block;
     justify-content: center;
     align-items: center;
 
@@ -512,3 +511,37 @@ li a:hover{
     animation: showUp 1s ease;
 }
 
+/* Genre */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+.container1{
+    width: 70vw;
+    height: 70vh;
+    background-color: white;
+    border: 4px solid #3e424b;
+    border-radius: 10px;
+    
+}
+
+.container2{
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.genre1{
+    margin-bottom: 8px;
+    margin-right: 5px;
+}
+
+.container3{
+    
+}
